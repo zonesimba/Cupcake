@@ -109,6 +109,7 @@ fun CupcakeApp(
                         .padding(dimensionResource(R.dimen.padding_medium))
                 )
             }
+
             composable(route = CupcakeScreen.Flavor.name) {
                 val context = LocalContext.current
                 SelectOptionScreen(
@@ -132,4 +133,8 @@ fun CupcakeApp(
                     modifier = Modifier.fillMaxHeight()
                 )
             }
+
         }
+    }
+}
+
